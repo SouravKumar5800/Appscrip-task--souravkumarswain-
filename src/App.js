@@ -12,6 +12,7 @@ class Ecommerce extends Component{
     allProducts:[]
   }
 
+
   componentDidMount(){
     this.getProducts()
   }
@@ -216,19 +217,30 @@ class Ecommerce extends Component{
                 <input type = "text" placeholder="Enter your e-mail..." className = "subscribe-box"/>
                 <button type = "button" className = "subscribe-button">SUBSCRIBE</button>
               </div>
+              <hr className="display-horizontal-line"/>
             </div>
+            
             <div className = "footer-first-section-second-column">
               <h3 className = "white-text-color">CONTACT US</h3>
               <p className = "white-text-color footer-paragraph">+44 221 133 5360</p>
               <p className = "white-text-color footer-paragraph">customercare@mettamuse.com</p>
+              <hr className="display-horizontal-line"/>
               <h3 className = "white-text-color">CURRENCY</h3>
               <div className = "dollar-container"><img src = "/navbar/United States of America (US).png" alt = "usaflag"/><p className = "white-text-color footer-paragraph">+USD</p></div>
-              <p className = "white-text-color footer-paragraph">Transactions will be completed in Euros and a currency reference is available on hover.</p>
+              <p className = "white-text-color footer-paragraph mobile-view-text">Transactions will be completed in Euros and a currency reference is available on hover.</p>
+          
             </div>
             </div>
             <hr className = "horizontal-line white-text-color"/>
             <div className = "footer-first-section">
-              <div>
+              <div className="footer-mob-view">
+                <div className="footer-mob-option-view">
+                <h3 className = "white-text-color">mettā muse</h3>
+                <img src = "navbar/down-arrow-white.png" alt = "arrow-down"/>
+                </div>
+                <hr className="display-horizontal-line"/>
+              </div>
+              <div className="mobile-view-text">
                 <h3 className = "white-text-color">mettā muse</h3>
                 <p className = "white-text-color footer-paragraph">About Us</p>
                 <p className = "white-text-color footer-paragraph">Stories</p>
@@ -238,6 +250,14 @@ class Ecommerce extends Component{
                 <p className = "white-text-color footer-paragraph">EU Compliances Docs</p>
               </div>
               <div>
+              <div className="footer-mob-view">
+                <div className="footer-mob-option-view">
+                <h3 className = "white-text-color">Quick Links</h3>
+                <img src = "navbar/down-arrow-white.png" alt = "arrow-down"/>
+                </div>
+                <hr className="display-horizontal-line"/>
+              </div>
+              <div className="mobile-view-text">
                 <h3 className = "white-text-color">Quick Links</h3>
                 <p className = "white-text-color footer-paragraph">Orders & Shipping</p>
                 <p className = "white-text-color footer-paragraph">Join/Login as a Seller</p>
@@ -246,12 +266,22 @@ class Ecommerce extends Component{
                 <p className = "white-text-color footer-paragraph">FAQs</p>
                 <p className = "white-text-color footer-paragraph">Privacy Policy</p>
                 <p className = "white-text-color footer-paragraph">Terms & Conditions</p>
+                </div>
               </div>
               <div>
+              <div className="footer-mob-view">
+                <div className="footer-mob-option-view">
+                <h3 className = "white-text-color">Follow Us</h3>
+                <img src = "navbar/down-arrow-white.png" alt = "arrow-down"/>
+                </div>
+                <hr className="display-horizontal-line"/>
+              </div>
+                <div className="mobile-view-text">
                 <h3 className = "white-text-color">Follow Us</h3>
                 <div>
                   <img src = "/navbar/instagram-logo.png" alt = "instagram"/>
                   <img src = "/navbar/linkedin-logo.png" alt = "linkedin"/>
+                </div>
                 </div>
                 <h3 className = "white-text-color">mettā muse Accepts</h3>
                   <img className = "logo-property" src = "/navbar/g-pay-logo.png" alt = "g-pay"/>

@@ -9,6 +9,7 @@ const ProductSection = props => {
     }
 
     const likeHeart = isLiked ? "/navbar/redheart.png" :  "/navbar/heart.png"
+    
 
     return(
         <li className= "product-card-container">

@@ -240,6 +240,10 @@ nav h1{
 .display-horizontal-line{
     display:none;
 }
+.footer-mob-view{
+    display:none;
+}
+
 @media screen and (max-width:700px){
     .footer-bg-container{
         padding:40px;
@@ -254,12 +258,33 @@ nav h1{
     }
     .display-horizontal-line{
         display:flex;
+        border:0.5px solid ;
+        opacity:0.5;
+        border-color: #ffffff;
+        margin-top: 20px;
+        min-width: 350px;
+    }
+    .mobile-view-text{
+        display:none;
+    }
+    .footer-mob-view{
+        display:flex;
+        flex-direction: column;    
+    }
+    .footer-mob-option-view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mob-view-d-arraow-property{
+        border-color: #ffffff;
     }
 }
 
 .footer-first-section-second-column{
     max-width: 350px;
 }
+
 .subscribe-box{
     margin-top:25px;
     margin-right: 10px;
