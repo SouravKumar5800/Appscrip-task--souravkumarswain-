@@ -33,7 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 This is an E-commerce website design using FakeAPI for API request. This is a Simple Web page design using React Js. sometimes fake API is not working still its designed responsive according to the Figma File given. All the required functionality has been successfully implimented. 
 It has been already published in Netifly and pushed to version control system Git Hub. 
 
-Netifly published Link : https://66237b8be5de07ae4431bd34--delicate-toffee-4107f4.netlify.app/ 
+Netifly published Link : https://664040aa9f93db6fc73e23f6--sparkling-tarsier-ebac2a.netlify.app/
 
 Features Added:
 1. show and hide filters
